@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(180, 0, 0, 0.877);
+    font-family: 'Libre Baskerville', serif;
+}
+
+#container {
+    width: 90%;
+    background-color: rgb(24, 159, 163);
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    float: left;
+    padding-left: 1em;
+}
+
+#search {
+    float: left;
+    padding: 1.25em;
+}
+
+#search input {
+    padding: 0.5em;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#navigation {
+    background-color: rgb(9, 202, 90);
+
+}
+#navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navigation li {
+    float: left;
+    padding: 10px 20px;
+    border-right: 1px solid rgb(20, 150, 224);
+        
+}
+#navigation li:hover {
+    background-color: rgb(12, 198, 245);
+    cursor: pointer;
+}

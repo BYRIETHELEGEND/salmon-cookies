@@ -1,0 +1,33 @@
+{
+  "name": "salmon-cookies",
+  "version": "1.0.0",
+  "description": "Pat's Pet Bakery",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BYRIETHELEGEND/salmon-cookies.git"
+  },
+  "keywords": [
+    "cat",
+    "dog",
+    "kitten",
+    "puppy",
+    "seattle",
+    "treat",
+    "food"
+  ],
+  "author": "Bryan Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BYRIETHELEGEND/salmon-cookies/issues"
+  },
+  "homepage": "https://github.com/BYRIETHELEGEND/salmon-cookies#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "normalize.css": "^8.0.0"
+  }
+}

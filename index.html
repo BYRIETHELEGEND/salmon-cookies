@@ -6,17 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>soccer cleats</title>
     <link href="normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Shadows+Into+Light" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+
+    <script id="product-template" type="text/handlebars-v4">
+        <li class="product" data-brand="{{brand}}" data-categories="{{categories}}" data-id="{{product_id}}">
+            <img src="images/{{image}}" alt="{{title}}">
+            <h4>{{title}}</h4>
+            <P>{{price}}</P>
+            <a href="#" class="button">See more</a>
+        </li>
+    </script>
+
+
+
+
 </head>
 <body>
     <div id="container">
         <header>
             <div id="logo-search" class="clearfix">
-                <h1> Pro soccer gloves</h1>
+                <h1> Pro Soccer Apparel</h1>
                 <form id="search">
-                    <input type="text" placeholder="Search">
-                    <input type="button" value="Go">
+                    <input type="search" id="lookup" placeholder="Search">
+                    <input type="submit" value="Go">
                 </form>
             </div>
             <div id="navigation" class="clearfix">
@@ -29,10 +43,52 @@
                 <li>Sale</li>
                 </ul>
             </div>
-            <div id="promotions">
-
+            <div id="promotions" class="clearfix">
+                <span class="arrow">&lt;</span>
+                <span class="promo">Free Shipping on orders $50 and above using promo code Fortnite.</span>
+                <span class="arrow">&gt;</span>
             </div>
         </header>
+        <main class="clearfix">
+            <aside>
+                <h3>Categories</h3>
+                <select id="category-filter">
+                    <option value="">--Filter by category--</option>
+                </select>  
+                <hr>         
+                <h3>Brands</h3>
+                <select id="category-filter">
+                    <option value="">--Filter by Brands--</option>
+                </select>  
+                <hr>       
+                <h3>Colors</h3>
+                <select id="category-filter">
+                    <option value="">--Filter by Colors--</option>
+                </select>  
+                <hr>        
+                <hr>     
+                <h3>Sizes</h3>
+                <select id="category-filter">
+                    <option value="">--Filter by Sizes--</option>
+                </select>  
+                <hr>      
+            </aside>
+            <section>
+                <h3>Top Products</h3>
+                <ul id="product-listings">
+                </ul>
+            <section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2018 - Pro Soccer Apparel</p>
+        </footer>
     </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/handlebars-v4.0.12.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/products-constructor.js"></script>
+    <script src="js/brand-filter.js"></script>
+    <script src="js/category-filter.js"></script>
+    <script src="js/search.js"></script>
 </body>
 </html>

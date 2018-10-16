@@ -1,0 +1,223 @@
+var products = [
+
+    {
+        image:"ChampionsLeagueBALL.png",
+        title: "Champions League Ball",
+        price: "164.99",
+        sizes: ["1", "2", "3", "4", "5"],
+        desciption: "There is no ball more worthy of the stage than the adidas Finale 18",
+        colors: ["Blue", "White", "Black"],
+        brand: "Adidas",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1900"
+    },
+    {
+        image:"2014nikemajesta.jpg",
+        title: "Nike Magista Obra II",
+        price: "199.99",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11", "12"],
+        desciption: "Made for quarterback of the team, the midfield maestro, the creater and dominator",
+        colors: ["Blue", "White", "Black"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1901"
+    },
+    {
+        image:"AdidasPredator18+.jpg",
+        title: "Adidas Predator 18+ FG",
+        price:"224.99",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
+        desciption: "You will finace with this adidas cleats",
+        colors: ["Black", "Gold"],
+        brand: "Adidas",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1902"
+    },
+    {
+        image:"2014nikemercurialsuperfly.jpg",
+        title: "Nike Mercurial Superfly IV",
+        price: "269.99",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11", "12", "13"],
+        desciption:"Cristiano Ronaldo wore these cleats in the champions league",
+        colors: ["White", "Black"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1903"
+    },
+    {
+        image:"adidas2014brazilworldcupball.jpg",
+        title: "Adidas Brazuca Ball",
+        price: "90.00",
+        sizes: ["3","4", "5"],
+        desciption: "This ball was played in the world cup in 2014",
+        colors: ["Blue", "Orange", "Green", "Black", "White"],
+        brand: "Adidas",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1904"
+    },
+    {
+        image:"adidasAceTrans.jpg",
+        title: "Adidas Ace Trans Gloves",
+        price:"150.00",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
+        desciption: "Manuel Neuer wore thses gloves",
+        colors: ["Blue", "Orange", "Black"],
+        brand: "Adidas",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1905"
+    },
+    {
+        image:"adidasacetransgreenandblack.jpg",
+        title: "Adidas Ace Trans Green and Black",
+        price:"124.99",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
+        desciption: "Ter Stegan wore these in Barcelona FC",
+        colors: ["Green", "Black"],
+        brand: "Adidas",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1906"
+    },
+    {
+        image:"adidaspredatorproNC.jpg",
+        title: "Adidas Predator Pro NC",
+        price:"125.00",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
+        desciption: "Manuel Neuer wore these in the world cup 2018 Russia",
+        colors: ["Orange", "Black", "White"],
+        brand: "Adidas",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1907"
+    },
+    {
+        image:"cr7mercurialsuperfly.jpg",
+        title: "CR7 Mercurial Superfly Portugal",
+        price:"200.00",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11", "12"],
+        desciption: "Cristiano Ronaldo had these in the 2018 world cup in Russia",
+        colors: ["Green", "Gold", "Black", "Red"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1908"
+    },
+    {
+        image:"manchester-city-18-19-away-kit-2.jpg",
+        title: "Man City 18-19 away kit",
+        price:"125.00",
+        sizes: ["S", "M", "L", "XL"],
+        desciption: "This is there new 2018 and 2019 away kit",
+        colors: ["Green", "White", "Blue"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1909"
+    },
+    {
+        image:"neymarandjordancollab.jpg",
+        title: "Nike Hypervenom Phantom",
+        price: "290.00",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
+        desciption: "These are the Neymar and Jordan Collab Cleats",
+        colors: ["Grey", "Black", "Red"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1910"
+    },
+    {
+        image:"neymarVI.jpg",
+        title: "Neymar VI",
+        price:"190.00",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
+        desciption: "",
+        colors: ["Yellow", "White", "Black"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1911"
+    },
+    {
+        image:"nike-phantom-vsn-low-cut (2).jpg",
+        title: "Nike Phantom VSN Low-Cut",
+        price:"270.00",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
+        desciption: "",
+        colors: ["White", "Red", "Black", "Grey"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1912"
+    },
+    {
+        image:"nike25bootcolorways.jpg",
+        title: "Nike 25 Color Way",
+        price:"190.00",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
+        desciption: "These will make the boys jealous",
+        colors: ["Misalanious"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1913"
+    },
+    {
+        image:"nikemercurial6.jpg",
+        title: "Nike Mercurial 6",
+        price:"246.99",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
+        desciption: "Cristiano Ronaldo's son wore these in his backyard",
+        colors: ["Light Blue", "Blue", "White"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1914"
+    },
+    {
+        image:"nikemercurialsuperflyV.jpg",
+        title: "Nike Mercurial Superfly V",
+        price:"180.00",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
+        desciption: "Cristiano Ronaldo wore these in El Classico",
+        colors: ["Misalanious"],
+        brand: "nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1915"
+    },
+    {
+        image:"nikesurperfly6.jpeg",
+        title: "Nike Superfly 6",
+        price:"190.00",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
+        desciption: "Gabriel Jesus wore these in the 2018 World Cup",
+        colors: ["Misalanious"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1916"
+    },
+    {
+        image:"PSG-Third-Jersey-2016-2017.jpg",
+        title: "PSG Third Jersey 16-17",
+        price:"110.00",
+        sizes: ["S", "M", "L"],
+        desciption: "Neymar wore this jersey againt Liverpool",
+        colors: ["Blue", "White", "Red"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1917"
+    },
+    {
+        image:"niketottenhamhotspur18-19homekit.jpg",
+        title: "Tottenham Hotspur 18-19",
+        price:"165.00",
+        sizes: ["S", "M", "L"],
+        desciption: "Dele Alli wore this jersey against Man City",
+        colors: ["Blue", "White", "Red", "Black"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1918"
+    },
+    {
+        image:"nikemercurialsuperflyV2.jpg",
+        title: "Nike Mercurial Superfly V2",
+        price:"180.00",
+        sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
+        desciption: "Neymar wore these in the game against Barcelona FC",
+        colors: ["Misalanious"],
+        brand: "Nike",
+        categories: ["Men", "Women", "Kids"],
+        product_id:"C1919"
+    },
+];

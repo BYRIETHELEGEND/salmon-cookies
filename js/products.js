@@ -8,7 +8,7 @@ var products = [
         desciption: "There is no ball more worthy of the stage than the adidas Finale 18",
         colors: ["Blue", "White", "Black"],
         brand: "Adidas",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Ball"],
         product_id:"C1900"
     },
     {
@@ -19,7 +19,7 @@ var products = [
         desciption: "Made for quarterback of the team, the midfield maestro, the creater and dominator",
         colors: ["Blue", "White", "Black"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Nike Cleats"],
         product_id:"C1901"
     },
     {
@@ -30,7 +30,7 @@ var products = [
         desciption: "You will finace with this adidas cleats",
         colors: ["Black", "Gold"],
         brand: "Adidas",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Adidas Cleats"],
         product_id:"C1902"
     },
     {
@@ -41,7 +41,7 @@ var products = [
         desciption:"Cristiano Ronaldo wore these cleats in the champions league",
         colors: ["White", "Black"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Nike Cleats"],
         product_id:"C1903"
     },
     {
@@ -52,7 +52,7 @@ var products = [
         desciption: "This ball was played in the world cup in 2014",
         colors: ["Blue", "Orange", "Green", "Black", "White"],
         brand: "Adidas",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Ball"],
         product_id:"C1904"
     },
     {
@@ -63,7 +63,7 @@ var products = [
         desciption: "Manuel Neuer wore thses gloves",
         colors: ["Blue", "Orange", "Black"],
         brand: "Adidas",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Gloves"],
         product_id:"C1905"
     },
     {
@@ -74,7 +74,7 @@ var products = [
         desciption: "Ter Stegan wore these in Barcelona FC",
         colors: ["Green", "Black"],
         brand: "Adidas",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Gloves"],
         product_id:"C1906"
     },
     {
@@ -85,7 +85,7 @@ var products = [
         desciption: "Manuel Neuer wore these in the world cup 2018 Russia",
         colors: ["Orange", "Black", "White"],
         brand: "Adidas",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Gloves"],
         product_id:"C1907"
     },
     {
@@ -96,7 +96,7 @@ var products = [
         desciption: "Cristiano Ronaldo had these in the 2018 world cup in Russia",
         colors: ["Green", "Gold", "Black", "Red"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Nike Cleats"],
         product_id:"C1908"
     },
     {
@@ -107,7 +107,7 @@ var products = [
         desciption: "This is there new 2018 and 2019 away kit",
         colors: ["Green", "White", "Blue"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Kits"],
         product_id:"C1909"
     },
     {
@@ -118,7 +118,7 @@ var products = [
         desciption: "These are the Neymar and Jordan Collab Cleats",
         colors: ["Grey", "Black", "Red"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Nike Cleats"],
         product_id:"C1910"
     },
     {
@@ -129,7 +129,7 @@ var products = [
         desciption: "",
         colors: ["Yellow", "White", "Black"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Nike Cleats"],
         product_id:"C1911"
     },
     {
@@ -140,7 +140,7 @@ var products = [
         desciption: "",
         colors: ["White", "Red", "Black", "Grey"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Nike Cleats"],
         product_id:"C1912"
     },
     {
@@ -151,7 +151,7 @@ var products = [
         desciption: "These will make the boys jealous",
         colors: ["Misalanious"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Nike Cleats"],
         product_id:"C1913"
     },
     {
@@ -162,7 +162,7 @@ var products = [
         desciption: "Cristiano Ronaldo's son wore these in his backyard",
         colors: ["Light Blue", "Blue", "White"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Nike Cleats"],
         product_id:"C1914"
     },
     {
@@ -172,8 +172,8 @@ var products = [
         sizes: ["4", "5", "6", "7", "8", "9", "10", "11"],
         desciption: "Cristiano Ronaldo wore these in El Classico",
         colors: ["Misalanious"],
-        brand: "nike",
-        categories: ["Men", "Women", "Kids"],
+        brand: "Nike",
+        categories: ["Nike Cleats"],
         product_id:"C1915"
     },
     {
@@ -184,7 +184,7 @@ var products = [
         desciption: "Gabriel Jesus wore these in the 2018 World Cup",
         colors: ["Misalanious"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Nike Cleats"],
         product_id:"C1916"
     },
     {
@@ -195,7 +195,7 @@ var products = [
         desciption: "Neymar wore this jersey againt Liverpool",
         colors: ["Blue", "White", "Red"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Kits"],
         product_id:"C1917"
     },
     {
@@ -206,7 +206,7 @@ var products = [
         desciption: "Dele Alli wore this jersey against Man City",
         colors: ["Blue", "White", "Red", "Black"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Kits"],
         product_id:"C1918"
     },
     {
@@ -217,7 +217,7 @@ var products = [
         desciption: "Neymar wore these in the game against Barcelona FC",
         colors: ["Misalanious"],
         brand: "Nike",
-        categories: ["Men", "Women", "Kids"],
+        categories: ["Nike Cleats"],
         product_id:"C1919"
     },
 ];
